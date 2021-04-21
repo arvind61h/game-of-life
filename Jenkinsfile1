@@ -1,5 +1,5 @@
 pipeline{
-    agent {lable "buildServer"}
+    agent {label "buildServer"}
     tools{
         maven 'Maven'
     }
