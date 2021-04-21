@@ -1,7 +1,7 @@
 pipeline{
     agent {lable "buildServer"}
     tools{
-        Maven '3.6.3'
+        Maven 'apache-maven-3.6.3'
     }
     stages{
         stage("SCM-CHECKOUT"){
